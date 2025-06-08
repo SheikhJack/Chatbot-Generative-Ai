@@ -34,6 +34,7 @@ GEMINI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxx'
 ```bash
 # run the following command to store embeddings to pinecone
 python store_index.py
+```
 
 
 ### STEP 03- Finally run the following command
