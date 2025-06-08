@@ -24,7 +24,7 @@ source medibot\Scripts\activate
 pip install -r requirements.txt
 
 
-### Create a `.env` file in the root directory and add your Pinecone and Google Gemini credentials as follows
+### Create a `.env` file in the root directory and add your credentials as follows
 
 ```ini
 PINECONE_API_KEY = 'xxxxxxxxxxxxxxxxxxxxx'
@@ -35,13 +35,16 @@ GEMINI_API_KEY = 'xxxxxxxxxxxxxxxxxxxxx'
 # run the following command to store embeddings to pinecone
 python store_index.py
 
+
+### STEP 03- Finally run the following command
+
 ```bash
-#Finally run the following command
+
 python app.py
 ```
 
 # example images 
 
-![Chatbot UI](assets/screenshot-120.png)
-![User Reply](assets/screenshot-121.png)
+![Chatbot UI](assets/Screenshot-120.png)
+![User Reply](assets/Screenshot-121.png)
 
